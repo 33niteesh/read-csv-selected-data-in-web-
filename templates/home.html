@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                *{
+                    background-color: rgb(237, 241, 245);
+                    align-items: center;
+                    text-align: center;
+                    margin-top: 100px;
+                    font-size: xx-large;
+                }
+                body form #in{
+                     color: rgb(233, 159, 159);
+                     width: 50%;
+                     margin-left: 45%;
+                     height: 70px;
+                     font-size: larger;
+                }
+                body form #but{
+                    background-color: rgb(165, 165, 245);
+                    color: rgb(246, 245, 244);
+                    border-radius: 30px;
+                    width: 150px;
+                }
+        </style>
+    </head>
+    <body>
+        <form action='/s' method="POST" enctype="multipart/form-data">
+             
+             <br>
+             <input name='csv' type="file"  id='in'>
+             <br>
+             <input name='button' id='but' value="submit" type="submit" >
+        </form>
+    </body>
+</html>
